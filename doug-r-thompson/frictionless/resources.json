@@ -1,0 +1,509 @@
+{
+  "schemaVersion": "1.0",
+  "product": "Frictionless — The Practical Toolkit for Recognizing, Measuring, and Removing Unnecessary Effort",
+  "catalogVersion": "0.1.0",
+  "lastUpdated": "2026-10-27",
+  "publisher": "Timberzen Ltd",
+  "author": "Doug R. Thompson",
+  "bookCompanion": "Frictionless",
+  "commercialProductStatus": "planned",
+  "resources": [
+    {
+      "id": "quick-start",
+      "title": "Recognize → Fix — Quick Start",
+      "description": "A clear 30-minute route from observing a problem to agreeing a first improvement.",
+      "format": "PDF",
+      "status": "available",
+      "path": "resources/core/quick-start.pdf",
+      "roles": [
+        "all"
+      ],
+      "problems": [
+        "getting-started",
+        "prioritization"
+      ],
+      "chapters": [
+        "1",
+        "16"
+      ],
+      "category": "core"
+    },
+    {
+      "id": "evidence-card",
+      "title": "Friction Evidence Card",
+      "description": "Capture the goal, observed obstacle, affected people and a testable change.",
+      "format": "PDF",
+      "status": "available",
+      "path": "resources/core/friction-evidence-card.pdf",
+      "roles": [
+        "all"
+      ],
+      "problems": [
+        "usability",
+        "evidence",
+        "accessibility"
+      ],
+      "chapters": [
+        "1",
+        "13",
+        "16"
+      ],
+      "category": "core"
+    },
+    {
+      "id": "ledger",
+      "title": "Friction Ledger",
+      "description": "A spreadsheet of repeated tasks, delays, severity, owners and displaced effort.",
+      "format": "XLSX",
+      "status": "available",
+      "path": "resources/core/friction-ledger.xlsx",
+      "roles": [
+        "all",
+        "product-owner",
+        "operations",
+        "public-service"
+      ],
+      "problems": [
+        "evidence",
+        "prioritization",
+        "service"
+      ],
+      "chapters": [
+        "12",
+        "16"
+      ],
+      "category": "core"
+    },
+    {
+      "id": "stakeholders",
+      "title": "Stakeholder Alignment Map",
+      "description": "Map competing objectives, authority, evidence and a shared pilot decision.",
+      "format": "XLSX",
+      "status": "available",
+      "path": "resources/core/stakeholder-alignment.xlsx",
+      "roles": [
+        "all",
+        "product-owner",
+        "leadership",
+        "finance",
+        "engineering"
+      ],
+      "problems": [
+        "conflicting-agendas",
+        "prioritization"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "core"
+    },
+    {
+      "id": "scorecard",
+      "title": "Improvement Verification Scorecard",
+      "description": "Compare a baseline with results while checking for displaced or newly excluded effort.",
+      "format": "XLSX",
+      "status": "available",
+      "path": "resources/core/improvement-scorecard.xlsx",
+      "roles": [
+        "all",
+        "operations",
+        "finance",
+        "ux-designer"
+      ],
+      "problems": [
+        "measurement",
+        "roi",
+        "accessibility"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "core"
+    },
+    {
+      "id": "worked-example",
+      "title": "Worked Example — A Confusing Sign-up Journey",
+      "description": "A fictional example showing how all core tools connect without inventing real research outcomes.",
+      "format": "PDF",
+      "status": "available",
+      "path": "resources/core/worked-example.pdf",
+      "roles": [
+        "all"
+      ],
+      "problems": [
+        "getting-started",
+        "conflicting-agendas",
+        "roi"
+      ],
+      "chapters": [
+        "10",
+        "16"
+      ],
+      "category": "core"
+    },
+    {
+      "id": "planned-01",
+      "title": "Friction Backlog Prioritizer",
+      "description": "Compare opportunities by severity, reach, value, cost, and safeguarding needs.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/product-owner/",
+      "roles": [
+        "product-owner"
+      ],
+      "problems": [
+        "prioritization",
+        "conflicting-agendas"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "product-owner"
+    },
+    {
+      "id": "planned-02",
+      "title": "Product Opportunity Brief",
+      "description": "Link a friction observation to a testable product outcome.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/product-owner/",
+      "roles": [
+        "product-owner"
+      ],
+      "problems": [
+        "prioritization"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "product-owner"
+    },
+    {
+      "id": "planned-03",
+      "title": "Usability and Clarity Audit",
+      "description": "Observe first-time users completing key tasks, including recovery.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/ux-designer/",
+      "roles": [
+        "ux-designer"
+      ],
+      "problems": [
+        "usability",
+        "accessibility"
+      ],
+      "chapters": [
+        "2",
+        "3"
+      ],
+      "category": "ux-designer"
+    },
+    {
+      "id": "planned-04",
+      "title": "Customer Journey Mapping Workbook",
+      "description": "Map touchpoints, invisible handoffs, friction and evidence.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/ux-designer/",
+      "roles": [
+        "ux-designer"
+      ],
+      "problems": [
+        "service",
+        "usability"
+      ],
+      "chapters": [
+        "5",
+        "7"
+      ],
+      "category": "ux-designer"
+    },
+    {
+      "id": "planned-05",
+      "title": "Technical Friction Register",
+      "description": "Prioritize recurring faults and maintenance burdens.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/engineering/",
+      "roles": [
+        "engineering"
+      ],
+      "problems": [
+        "technical",
+        "service"
+      ],
+      "chapters": [
+        "5",
+        "16"
+      ],
+      "category": "engineering"
+    },
+    {
+      "id": "planned-06",
+      "title": "Failure Recovery Checklist",
+      "description": "Test retries, reversals, timeouts, incident recovery and accountability.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/engineering/",
+      "roles": [
+        "engineering"
+      ],
+      "problems": [
+        "technical",
+        "service"
+      ],
+      "chapters": [
+        "4",
+        "14"
+      ],
+      "category": "engineering"
+    },
+    {
+      "id": "planned-07",
+      "title": "Competitor Vulnerability Assessment",
+      "description": "Estimate strategic risk from a challenger removing customer friction.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/leadership/",
+      "roles": [
+        "leadership"
+      ],
+      "problems": [
+        "competition",
+        "roi"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "leadership"
+    },
+    {
+      "id": "planned-08",
+      "title": "Cost of Inaction Scenarios",
+      "description": "Compare no-change, gradual switch and rapid-defection cases.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/leadership/",
+      "roles": [
+        "leadership"
+      ],
+      "problems": [
+        "competition",
+        "roi"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "leadership"
+    },
+    {
+      "id": "planned-09",
+      "title": "Full Lifecycle Cost and ROI Model",
+      "description": "Estimate implementation costs, future operating costs, NPV and payback.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/finance/",
+      "roles": [
+        "finance"
+      ],
+      "problems": [
+        "roi"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "finance"
+    },
+    {
+      "id": "planned-10",
+      "title": "Investment Sensitivity Model",
+      "description": "Test low, baseline and high cases without invented precision.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/finance/",
+      "roles": [
+        "finance"
+      ],
+      "problems": [
+        "roi"
+      ],
+      "chapters": [
+        "16"
+      ],
+      "category": "finance"
+    },
+    {
+      "id": "planned-11",
+      "title": "Customer Effort and Repeat-Contact Tracker",
+      "description": "Identify rework and preventable contacts across service channels.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/operations/",
+      "roles": [
+        "operations"
+      ],
+      "problems": [
+        "service",
+        "measurement"
+      ],
+      "chapters": [
+        "14",
+        "16"
+      ],
+      "category": "operations"
+    },
+    {
+      "id": "planned-12",
+      "title": "Human Handoff Recovery Guide",
+      "description": "Pass context to a person without making customers start over.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/operations/",
+      "roles": [
+        "operations"
+      ],
+      "problems": [
+        "service",
+        "accessibility"
+      ],
+      "chapters": [
+        "14"
+      ],
+      "category": "operations"
+    },
+    {
+      "id": "planned-13",
+      "title": "Digital Exclusion Audit",
+      "description": "Test with people unable to use the preferred digital channel.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/accessibility/",
+      "roles": [
+        "accessibility"
+      ],
+      "problems": [
+        "accessibility"
+      ],
+      "chapters": [
+        "13"
+      ],
+      "category": "accessibility"
+    },
+    {
+      "id": "planned-14",
+      "title": "Accessible Alternatives Review",
+      "description": "Track assisted channels, success, service standards and complaints.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/accessibility/",
+      "roles": [
+        "accessibility"
+      ],
+      "problems": [
+        "accessibility",
+        "service"
+      ],
+      "chapters": [
+        "13",
+        "14"
+      ],
+      "category": "accessibility"
+    },
+    {
+      "id": "planned-15",
+      "title": "Delegated Authority Matrix",
+      "description": "Define approval tiers, budgets, permissions and revocation.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/ai-delegation/",
+      "roles": [
+        "ai-delegation"
+      ],
+      "problems": [
+        "ai",
+        "risk"
+      ],
+      "chapters": [
+        "11"
+      ],
+      "category": "ai-delegation"
+    },
+    {
+      "id": "planned-16",
+      "title": "Consent and Override Checklist",
+      "description": "Check transparency, audit logs, explanation and escalation.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/ai-delegation/",
+      "roles": [
+        "ai-delegation"
+      ],
+      "problems": [
+        "ai",
+        "risk"
+      ],
+      "chapters": [
+        "11",
+        "15"
+      ],
+      "category": "ai-delegation"
+    },
+    {
+      "id": "planned-17",
+      "title": "Administrative Burden Review",
+      "description": "Understand how citizens find and complete important applications.",
+      "format": "PDF",
+      "status": "planned",
+      "path": null,
+      "section": "resources/public-service/",
+      "roles": [
+        "public-service"
+      ],
+      "problems": [
+        "accessibility",
+        "service"
+      ],
+      "chapters": [
+        "12"
+      ],
+      "category": "public-service"
+    },
+    {
+      "id": "planned-18",
+      "title": "Service Channel Equity Scorecard",
+      "description": "Compare outcomes across digital and non-digital channels.",
+      "format": "XLSX",
+      "status": "planned",
+      "path": null,
+      "section": "resources/public-service/",
+      "roles": [
+        "public-service"
+      ],
+      "problems": [
+        "accessibility",
+        "measurement"
+      ],
+      "chapters": [
+        "13",
+        "16"
+      ],
+      "category": "public-service"
+    }
+  ]
+}
