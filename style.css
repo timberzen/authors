@@ -252,11 +252,22 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
 .compact-hero h1 { font-size: clamp(2.9rem, 7vw, 5.4rem); }
 .resource-intro { max-width: 770px; }
 
+/* Book covers and purchase links. */
+.book-hero-layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 3rem; align-items: start; }
+.book-cover-link { display: block; width: min(100%, 260px); }
+.book-cover { display: block; width: 100%; height: auto; border-radius: 4px; box-shadow: 0 14px 40px rgba(0, 0, 0, .3); }
+.card-cover-link { display: block; align-self: center; margin-top: 1.5rem; }
+.card-cover { display: block; width: auto; height: 220px; max-width: 100%; object-fit: contain; border-radius: 3px; }
+.book-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; }
+.button-secondary { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
+.book-purchase { margin: 0 0 1.5rem; }
+
 @media (max-width: 720px) {
   .shell { width: calc(100% - 2rem); }
   .bar { align-items: flex-start; flex-direction: column; gap: .5rem; padding: 1.15rem 0; }
   .nav { gap: 1.2rem; }
   .grid { grid-template-columns: 1fr; }
+  .book-hero-layout { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
   .hero { padding: 4rem 0 3rem; }
   .section { padding: 3rem 0; }
 }
