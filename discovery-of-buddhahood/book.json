@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "discovery-of-buddhahood",
+  "title": "The Discovery of Buddhahood",
+  "subtitle": "Why Enlightenment Could Be Closer Than You Think",
+  "author": "Doug R. Thompson",
+  "publisher": "Timberzen Ltd",
+  "publicationStatus": "published",
+  "bookUrl": "https://timberzen.github.io/authors/doug-r-thompson/discovery-of-buddhahood/",
+  "resourceUrl": "https://timberzen.github.io/authors/doug-r-thompson/discovery-of-buddhahood/resources/",
+  "regionalStoreLink": "https://mybook.to/DiscoveryOfBuddhahood",
+  "formats": [
+    {
+      "format": "Kindle eBook",
+      "asin": "B0HQJN4V9Q",
+      "url": "https://www.amazon.com/dp/B0HQJN4V9Q"
+    },
+    {
+      "format": "Paperback",
+      "asin": "B0HQJPJBKD",
+      "url": "https://www.amazon.com/dp/B0HQJPJBKD"
+    },
+    {
+      "format": "Hardcover",
+      "asin": "B0HQK1N66R",
+      "url": "https://www.amazon.com/dp/B0HQK1N66R"
+    }
+  ],
+  "images": {
+    "front3D": "assets/discovery-of-buddhahood-3d-book.webp",
+    "landscape": "assets/discovery-of-buddhahood-landscape.webp"
+  },
+  "notes": "Subtitle follows the user-supplied published cover mockups, which say 'Could Be'. Previous manuscript and site copy said 'Is'. Verify against the final live Amazon listing.",
+  "resourcesPublished": []
+}
